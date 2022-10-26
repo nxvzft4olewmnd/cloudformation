@@ -1,0 +1,63 @@
+Instructions:
+
+*Note* If Windows defender interrupts the unzipping of these files then turn off windows defender real-time protection and unzip again.
+The actual exploit payloads are thought to be viruses by windows defender. Alternatively, you can just add an exception inside of your antivirus.
+
+
+1. Install XAMPP to a local PC on the same local network that the Wii U is on
+   (xampp installer included in the "PC Software" folder)
+2. Browse to "c:\xampp\htdocs\" and copy the "WiiU" from the zip inside there
+
+   Folder should look like:	
+   - c:\xampp\htdocs\WiiU\553
+			 \cafiine\...
+                         \hbl\...
+                         \kexploit\...
+			 \loadiinegx2\...
+			 \mocha\...
+			 \removeupdate\...
+                         \res\...
+			 \sdcafiine\...
+                         index.html
+			 index532.html
+			 index540-553.html
+                         menu.json
+                         menu.json.txt
+
+3. Copy everything INSIDE of folder "SD Card" to the root of your SD card overwriting files when prompted.
+4. Put SD card back in WiiU
+5. Turn on Apache in XAMPP
+6. Test website on local PC by opening a browser (Chrome or another) and go to:
+   localhost/WiiU
+
+*Note* If you cannot see the web page on your local PC then you may have a port issue with XAMPP. Post
+       in gbatemp thread with issues. You must have the xampp page working before you can test on Wii U.
+
+7. Learn your local PC's IP address and use that in the next step.
+
+*Note* On windows, click start, write "cmd" on search bar, and run "cmd.exe". On there, write "ipconfig". Look for the Ipv4 line. That will be your local address.
+
+8. Open your Wii U and open the browser. Click on settings in the upper right corner. Click "Reset Save Data". Now browse the web page:
+   http://xxx.xxx.xxx.xxx/WiiU 
+
+*Note* Replace the "xx" with your local IP from step 7
+
+9. You should see the main exploit page loaded. Proceed to the one for your Wiiu's firmware
+
+*Note* If you change the port number in xampp to make it work then you need to include that in the URL
+example:
+If you change port to "12345". The address you should use in Wii U browser is:
+http://xxx.xxx.xxx.xxx:12345/WiiU
+
+*Note* If you want to trick your Wii U into loading the same page every time that you open the browser follow these steps:
+
+1. Let's say I want to load the main exploit page every time by default. First turn off your server. (or just turn off wifi)
+2. Open the browser and type in the direct link for your exploit (http://xxx.xxx.xxx.xxx/WiiU/)
+3. The page will fail (if you have your webserver off or ethernet disconnected or wifi turned off)
+4. Press the Home button on the wii U
+5. Press Wii U Menu
+6. Open Mii Maker and let it load.
+7. Exit Mii Maker with the button in the bottom left
+
+Now every time you open your browser it will go to that link immediatly. You can cancel this by following the same steps for a different link.
+

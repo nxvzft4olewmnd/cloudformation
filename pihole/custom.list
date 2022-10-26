@@ -1,0 +1,14 @@
+192.168.184.24 home.local
+192.168.184.10 nas.local
+192.168.184.4 unifi.local
+10.10.12.6 pvtpihole.local
+10.10.12.14 pvtunifi.local
+10.10.11.1 3c3c1dpvt.local
+192.168.184.24 git.home.local
+10.10.10.2 3c3c1dpvtfw.local
+10.10.10.2 3c3c1dpvt-m1.local
+192.168.184.38 pihole.local
+192.168.184.49 geekworm.local
+192.168.184.40 pihole0.local
+10.10.12.6 reterm.local
+192.168.184.51 mariadb.local

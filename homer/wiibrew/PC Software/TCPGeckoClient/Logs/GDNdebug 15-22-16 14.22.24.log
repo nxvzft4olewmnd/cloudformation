@@ -1,0 +1,20 @@
+
+
+16/10/2015 14:22:24: Opened log
+14:22:24: Exception occured!
+Message: Une exception de type 'TCPTCPGecko.ETCPGeckoException' a été levée.
+Stack Trace: 
+   à TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Dump memdump) dans :ligne 0
+   à GeckoApp.MemSearch.SafeDump(UInt32 startdump, UInt32 enddump, Dump memdump) dans :ligne 0
+Inner Exception: 
+14:22:25: Exception occured!
+Message: La méthode ou l'opération n'est pas implémentée.
+Stack Trace: 
+   à GeckoApp.MainForm.PopulateThreads(UInt32 os_ver) dans :ligne 0
+   à GeckoApp.MainForm.CTCPGecko_Click(Object sender, EventArgs e) dans :ligne 0
+   à GeckoApp.ExceptionHandler.HandleExceptionInternally(ETCPGeckoException exc) dans :ligne 0
+   à GeckoApp.MemSearch.SafeDump(UInt32 startdump, UInt32 enddump, Dump memdump) dans :ligne 0
+   à GeckoApp.MemSearch.PerformBlockSearch(Dump blockDump, List`1 dumpranges) dans :ligne 0
+   à GeckoApp.MemSearch.SearchRefactored(UInt32 sAddress, UInt32 eAddress, List`1 comparisons, SearchSize searchSize) dans :ligne 0
+   à GeckoApp.MainForm.Search_Click(Object sender, EventArgs e) dans :ligne 0
+Inner Exception: 

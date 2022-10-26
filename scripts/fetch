@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Use screen + wget/curl to fetch contents of remote usrl
+
+wget_opts="-t 3 -nc -c -T 90 -4"
+
+if [ "${1}" = "install" ];
+then
+  sudo cp "${0}" /usr/local/bin/
+else
+  cd "${HOME}" || exit 1
+  screen -4 -S fetchtmp -d -m wget "${wget_opts}" "${1}"
+fi
