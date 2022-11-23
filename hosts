@@ -1,6 +1,8 @@
-[homesrv]
-nas.local
+[storage:vars]
+ansible_python_interpreter=/share/CACHEDEV2_DATA/.qpkg/Python3/python3/bin/python3
 
-[pihole]
-pihole.local
-pihole0.local
+[storage]
+nas.home.lan
+
+[lab]
+lab.home.lan
