@@ -1,0 +1,4 @@
+*.log
+*.lock
+*/.vim/backup/*
+*/Brewfile.lock.json
