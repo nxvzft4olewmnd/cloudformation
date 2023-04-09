@@ -2,7 +2,7 @@
 ansible_python_interpreter=/share/CACHEDEV2_DATA/.qpkg/Python3/python3/bin/python3
 
 [storage]
-nas.home.lan
+nas.local
 
 [lab]
-lab.home.lan
+lab.local
